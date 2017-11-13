@@ -16,7 +16,7 @@ In your project pom under build / plugins add the tiles-maven-plugin with the fo
         <extensions>true</extensions>
         <configuration>
           <tiles>
-            <tile>org.avaje.ebean.tile:enhancement:2.5</tile>
+            <tile>org.avaje.ebean.tile:enhancement:5.1</tile>
           </tiles>
         </configuration>
       </plugin>
@@ -37,8 +37,8 @@ Effectively the ebean enhancement tile brings in 3 plugins:
 
   <properties>
     <codegen-maven-plugin.version>3.1</codegen-maven-plugin.version>
-    <querybean-maven-plugin.version>10.1.3</querybean-maven-plugin.version>
-    <ebean-maven-plugin.version>10.1.4</ebean-maven-plugin.version>
+    <querybean-maven-plugin.version>11.1.1</querybean-maven-plugin.version>
+    <ebean-maven-plugin.version>11.5.1</ebean-maven-plugin.version>
     <ebean-maven-plugin.args>debug=0</ebean-maven-plugin.args>
   </properties>
 
